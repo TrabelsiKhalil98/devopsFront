@@ -4,6 +4,7 @@ FROM node:14 as build
 WORKDIR /app
 
 COPY package.json package-lock.json ./
+RUN npm install -g @angular/cli@12.0.1
 RUN npm install
 
 COPY . .

@@ -32,7 +32,6 @@
           },
           "configurations": {
             "production": {
-              "extractCss": false,
               "budgets": [
                 {
                   "type": "initial",
